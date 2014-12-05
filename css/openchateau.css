@@ -66,6 +66,13 @@ a
 	text-align: center;
 }
 
+.bloc {
+	background: #CCC;
+	margin: 20px;
+	padding: 20px;
+	text-align: center;
+}
+
 .projets {
     margin: 10px;
 	padding: 10px;
