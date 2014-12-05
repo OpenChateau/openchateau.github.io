@@ -26,9 +26,12 @@ a
 	padding: 10px;
 	text-align: center;
 	font-size: 20px;
-	background: #0C0;
-	width: 300px;
+	background: #D00;
     cursor: pointer;
+
+    margin-left: auto;
+   	margin-right: auto;
+   	width: 400px;
 
     -moz-border-radius:    10px;
     -webkit-border-radius: 10px;
@@ -40,30 +43,9 @@ a
 }
 
 .inscription:hover { 
-	background: #0F0;	 
+	background: #F00;	 
 	font-size: 24px;
-	width: 310px;
-}
-
-.objectif {
-	background: #CCC;
-	margin: 20px;
-	padding: 20px;
-	text-align: center;
-}
-
-.humain {
-	background: #CCC;
-	margin: 20px;
-	padding: 20px;
-	text-align: center;
-}
-
-.comment {
-	background: #CCC;
-	margin: 20px;
-	padding: 20px;
-	text-align: center;
+	width: 410px;
 }
 
 .bloc {
@@ -71,6 +53,17 @@ a
 	margin: 20px;
 	padding: 20px;
 	text-align: center;
+    margin-left: auto;
+   	margin-right: auto;
+   	width: 1000px;
+
+    -moz-border-radius:    10px;
+    -webkit-border-radius: 10px;
+    border-radius:         10px;
+
+    -moz-box-shadow:    3px 3px 5px rgba(0,0,0,.2); /* -- repeating rgba shadow color 3 times        */
+    -webkit-box-shadow: 3px 3px 5px rgba(0,0,0,.2); /*    is not very nice when you count every byte */
+    box-shadow:         3px 3px 5px rgba(0,0,0,.2); /*    so this is shortest value possible ;)      */
 }
 
 .projets {
@@ -78,9 +71,13 @@ a
 	padding: 10px;
 	text-align: center;
 	font-size: 20px;
-	background: #00A;
+	background: #D00;
 	width: 300px;
     cursor: pointer;
+
+    margin-left: auto;
+   	margin-right: auto;
+   	width: 400px;
 
     -moz-border-radius:    10px;
     -webkit-border-radius: 10px;
@@ -92,9 +89,9 @@ a
 }
 
 .projets:hover { 
-	background: #00F;	 
+	background: #F00;	 
 	font-size: 24px;
-	width: 310px;
+	width: 410px;
 }
 
 
