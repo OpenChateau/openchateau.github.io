@@ -5,10 +5,12 @@ html {
 }
 
 body {
-	font-family:"Helvetica Neue, Helvetica, Arial, sans-serif;"; 
+	font-family: verdana,helvetica,arial,sans-serif; 
 	position: relative;
-	background: #DDD;
+	background: #EEE;
+	color: #333; 
    	height: 100%;
+	font-size: 20px;
 }
 
 a 
@@ -80,6 +82,10 @@ a
    	font-size: 22px;
    	font-weight:bold;
    	vertical-align:middle;
+   	
+    -moz-border-radius:    10px;
+    -webkit-border-radius: 10px;
+    border-radius:         10px;
 }
 
 .description {
