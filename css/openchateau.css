@@ -50,7 +50,7 @@ a
 }
 
 .button:hover { 
-	background: #F00;	 
+	background: #D00;	 
 	font-size: 24px;
 	width: 410px;
 }
@@ -72,7 +72,7 @@ a
 
 .titre {
 	display: inline-block;
-	background: #F00;
+	background: #D00;
 	margin: 20px;
 	padding: 20px;
 	text-align: center;
