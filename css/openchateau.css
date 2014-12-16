@@ -15,8 +15,8 @@ body {
 
 a 
 { 
-	outline: 0; 
-	color: #ddd; 
+	/*outline: 0; 
+	color: #ddd; */
 	margin: 0;
 	padding: 0;
 	text-decoration:none;
@@ -93,4 +93,12 @@ a
 	text-align: left;
 	width: 600px;
    	vertical-align:middle;
+}
+
+li.no_list {
+	list-style-type: none;
+}
+
+.description li img {
+	max-width: 7em;
 }
