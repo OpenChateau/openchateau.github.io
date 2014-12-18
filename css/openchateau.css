@@ -94,3 +94,13 @@ a
 	width: 600px;
    	vertical-align:middle;
 }
+
+#communication {
+  color: black;
+  border: 2px dotted orange;
+  padding: 5px;
+}
+
+#communication a {
+  color: lightblue;
+}
