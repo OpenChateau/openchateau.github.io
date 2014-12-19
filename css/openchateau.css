@@ -1,7 +1,7 @@
 @CHARSET "UTF-8";
 
 html {
-	   	height: 100%;
+  height: 100%;
 }
 
 body {
@@ -13,10 +13,9 @@ body {
 	font-size: 20px;
 }
 
-a 
-{ 
-	outline: 0; 
-	color: #ddd; 
+a { 
+	/*outline: 0; 
+	color: #ddd; */
 	margin: 0;
 	padding: 0;
 	text-decoration:none;
@@ -89,10 +88,18 @@ a
 }
 
 .description {
-	display: inline-block;
-	text-align: left;
-	width: 600px;
-   	vertical-align:middle;
+  display: inline-block;
+  text-align: left;
+  width: 600px;
+  vertical-align:middle;
+}
+
+li.no_list {
+  list-style-type: none;
+}
+
+.description li img {
+  max-width: 7em;
 }
 
 #communication {
